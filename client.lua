@@ -40,7 +40,6 @@ local function startFishing()
         -- 1. Line 3
         ClearPedTasks(PlayerPedId())
         fishingNotify('You caught a fish!', 'success', 2000)
-        Config.RewardFunction()
     end
 end
 
